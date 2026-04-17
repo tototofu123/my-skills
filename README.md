@@ -13,6 +13,7 @@
 | npm-cwd-guard | <span style="color:#2563eb">Created</span> | Enforce correct working directory for package commands | Use before npm, pnpm, yarn, bun, vite, or turbo commands | Fewer wrong-directory errors, better multi-project handling |
 | strict-local-asset-library-utilization | <span style="color:#2563eb">Created</span> | Enforce local-first UI reuse | Search local libraries, SVGs, and images before writing new UI | Less duplicate UI, better asset reuse, more varied layouts |
 | visual-layout-debugger | <span style="color:#2563eb">Created</span> | Diagnose layout and spacing bugs without a browser | Use debug borders (red/blue/green) to visualize DOM structure | Better debugging speed, clearer understanding of flex/grid issues |
+| web-visual-debugger | <span style="color:#2563eb">Created</span> | Dynamic Figma + Pencil + code workflow for website debugging | Choose visual-first, comment-first, or hybrid path per issue | Faster visual diagnosis, better annotations, cleaner fixes |
 
 ## Downloaded Skills Inventory
 
@@ -46,7 +47,6 @@
 | internal-comms | <span style="color:#16a34a">Downloaded</span> | Write internal updates | Use for reports, FAQs, and announcements | Better clarity and communication |
 | layout | <span style="color:#16a34a">Downloaded</span> | Fix spacing and rhythm | Use when alignment or hierarchy feels off | Better spacing and composition |
 | mcp-builder | <span style="color:#16a34a">Downloaded</span> | Build MCP servers | Use for MCP server development | Better external tool integration and reliability |
-| npm-cwd-guard | <span style="color:#16a34a">Downloaded</span> | Enforce correct npm working directory | Use before npm, pnpm, yarn, bun, or node commands | Fewer path mistakes and command failures |
 | optimize | <span style="color:#16a34a">Downloaded</span> | Improve UI performance | Use when the app feels slow or heavy | Better speed, bundle size, and rendering performance |
 | overdrive | <span style="color:#16a34a">Downloaded</span> | Push UI technically farther | Use when you want unusually ambitious interfaces | Better wow factor and motion sophistication |
 | pdf | <span style="color:#16a34a">Downloaded</span> | Work with PDFs | Use for reading, editing, merging, OCR, and forms | Better document extraction and manipulation |
@@ -66,10 +66,10 @@
 
 ## Notes
 
-- **Created skills** (7 total) are authored and committed as code in the `/skills/` directory.
-- **Downloaded skills** (39 total) are listed in the inventory above for reference.
+- **Created skills** (8 total) are authored and committed as code in the `/skills/` directory.
+- **Downloaded skills** (38 total) are listed in the inventory above for reference.
 - When a new skill is created, the SKILL.md will be added to the repo, README updated, and changes committed with a descriptive git message.
 
 ---
 
-**Last Updated**: Updated with npm-cwd-guard (7th created skill).
+**Last Updated**: Added web-visual-debugger (8th created skill).
