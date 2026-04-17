@@ -10,6 +10,7 @@
 | always-ask-when-making-skill | <span style="color:#2563eb">Created</span> | Structured skill-authoring discipline | Use when creating or editing SKILL.md files | Better scope control, stronger skill design, more coherent workflows |
 | design-intake-guard | <span style="color:#2563eb">Created</span> | Verify frontend design intake and flag generics | Use alongside primary design skills | Better intake discipline, less generic output, stronger aesthetic intent |
 | design-template-make-and-show | <span style="color:#2563eb">Created</span> | Generate and validate DESIGN.md workflows | Use for DESIGN.md generation, validation, and preview flows | Better design docs, clearer token systems, cleaner previews |
+| npm-cwd-guard | <span style="color:#2563eb">Created</span> | Enforce correct working directory for package commands | Use before npm, pnpm, yarn, bun, vite, or turbo commands | Fewer wrong-directory errors, better multi-project handling |
 | strict-local-asset-library-utilization | <span style="color:#2563eb">Created</span> | Enforce local-first UI reuse | Search local libraries, SVGs, and images before writing new UI | Less duplicate UI, better asset reuse, more varied layouts |
 | visual-layout-debugger | <span style="color:#2563eb">Created</span> | Diagnose layout and spacing bugs without a browser | Use debug borders (red/blue/green) to visualize DOM structure | Better debugging speed, clearer understanding of flex/grid issues |
 
@@ -65,10 +66,10 @@
 
 ## Notes
 
-- **Created skills** (6 total) are authored and committed as code in the `/skills/` directory.
+- **Created skills** (7 total) are authored and committed as code in the `/skills/` directory.
 - **Downloaded skills** (39 total) are listed in the inventory above for reference.
 - When a new skill is created, the SKILL.md will be added to the repo, README updated, and changes committed with a descriptive git message.
 
 ---
 
-**Last Updated**: Initial repository structure with 6 created skills and 39 downloaded skills in inventory.
+**Last Updated**: Updated with npm-cwd-guard (7th created skill).
