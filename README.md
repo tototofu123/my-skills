@@ -9,7 +9,10 @@
 | active-terminal-error-catcher-and-fixer | <span style="color:#2563eb">Created</span> | Enforce strict dev/build terminal log inspection | Run dev, build, or typecheck with mandatory log checking | Fewer false-success runs, faster debugging, better error visibility |
 | always-ask-when-making-skill | <span style="color:#2563eb">Created</span> | Structured skill-authoring discipline | Use when creating or editing SKILL.md files | Better scope control, stronger skill design, more coherent workflows |
 | design-intake-guard | <span style="color:#2563eb">Created</span> | Verify frontend design intake and flag generics | Use alongside primary design skills | Better intake discipline, less generic output, stronger aesthetic intent |
-| design-template-make-and-show | <span style="color:#2563eb">Created</span> | Generate and validate DESIGN.md workflows | Use for DESIGN.md generation, validation, and preview flows | Better design docs, clearer token systems, cleaner previews |
+| agent-dx-cli-scale | <span style="color:#2563eb">Created</span> | Score a CLI for AI-agent readiness | Use to evaluate machine output, schema introspection, safety rails, and hardening | Better CLI reliability and lower agent error rates |
+| ink | <span style="color:#2563eb">Created</span> | Build terminal UIs from JSON specs | Use when working with `@json-render/ink` catalogs, renderers, and terminal components | Better structured terminal UI generation and maintainability |
+| tdd | <span style="color:#2563eb">Created</span> | Enforce Red-Green-Refactor workflow | Use for incremental test-first TypeScript feature development | Better code quality and verifiable changes |
+| typed-service-contracts | <span style="color:#2563eb">Created</span> | Apply Spec & Handler contracts in TypeScript | Use for robust service boundaries, parsing, and result-based error handling | Better type safety and predictable service behavior |
 | npm-cwd-guard | <span style="color:#2563eb">Created</span> | Enforce correct working directory for package commands | Use before npm, pnpm, yarn, bun, vite, or turbo commands | Fewer wrong-directory errors, better multi-project handling |
 | strict-local-asset-library-utilization | <span style="color:#2563eb">Created</span> | Enforce local-first UI reuse | Search local libraries, SVGs, and images before writing new UI | Less duplicate UI, better asset reuse, more varied layouts |
 | visual-layout-debugger | <span style="color:#2563eb">Created</span> | Diagnose layout and spacing bugs without a browser | Use debug borders (red/blue/green) to visualize DOM structure | Better debugging speed, clearer understanding of flex/grid issues |
@@ -66,10 +69,10 @@
 
 ## Notes
 
-- **Created skills** (8 total) are authored and committed as code in the `/skills/` directory.
+- **Created skills** (11 total) are authored and committed as code in the `/skills/` directory.
 - **Downloaded skills** (38 total) are listed in the inventory above for reference.
 - When a new skill is created, the SKILL.md will be added to the repo, README updated, and changes committed with a descriptive git message.
 
 ---
 
-**Last Updated**: Added web-visual-debugger (8th created skill).
+**Last Updated**: Replaced design-template-make-and-show with 4 imported skills from google-labs-code/design.md.
